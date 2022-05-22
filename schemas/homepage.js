@@ -7,7 +7,7 @@ export default {
       name: 'title',
       title: 'Homepage title',
       type: 'string',
-      description: "What's the title of the homepage hero?",
+      description: "What's the title website?",
     },
     {
       name: 'subtitle',
@@ -18,8 +18,12 @@ export default {
     {
       name: 'body',
       title: 'Homepage Body',
-      type: 'string',
-      description: 'The main copy found on the homepage.'
+      type: 'array',
+      of: [
+        {
+          type : 'block'
+        }
+      ]
     }
   ],
 };
