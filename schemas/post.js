@@ -1,8 +1,8 @@
-// ./studio/schemas/article.js
+// ./studio/schemas/post.js
 
 export default {
-  name: 'article',
-  title: 'Article',
+  name: 'post',
+  title: 'Posts',
   type: 'document',
   fields: [
     {
@@ -14,7 +14,8 @@ export default {
       name: 'slug',
       type: 'slug',
       options: 
-        {source: 'title'
+       {
+          source: 'title'
       }
     },
     {
