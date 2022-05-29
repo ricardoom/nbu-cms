@@ -1,9 +1,19 @@
-# Sanity Clean Content Studio
+# Native Bound Unbound CMS
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+- Built with Sanity.io
 
-Now you can do the following things:
+## Running this repo
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+1. Clone
+2. Uses PNPM, so get that and then run `pnpm i`
+
+## Change Log
+
+Changes can be tracked here
+
+v0.0.1 Getting setup
+
+
+## Issues can be found here
+
+- [https://github.com/ricardoom/nbu-cms/issues](issues)
