@@ -27,5 +27,9 @@ export default {
         }
       ],
     },
+    {
+      name: 'author',
+      type: 'string'
+    }
   ],
 }
