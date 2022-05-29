@@ -6,16 +6,16 @@
 
 1. Clone
 2. Uses PNPM, so get that and then run `pnpm i`
-3. run `santiy start`
-  
-  - This should spin up the local Sanity server and CMS
+3. Run `santiy start`
+    - This should spin up the local Sanity server and CMS
 
 ## Change Log
 
 Changes can be tracked here
 
-v0.0.1 Getting setup
-
+- v0.0.1
+  - Getting setup
+  - Schemas in place
 
 ## Issues can be found here
 
