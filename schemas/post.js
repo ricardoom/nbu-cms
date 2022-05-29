@@ -6,12 +6,14 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'title', 
+      name: 'title',
+      title: 'Title', 
       type: 'string'
     },
     // Important! Document needs a slug for Next.js to query for.
     {
       name: 'slug',
+      title: 'Slug',
       type: 'slug',
       options: 
        {
@@ -19,7 +21,8 @@ export default {
       }
     },
     {
-      name: 'content', 
+      name: 'content',
+      title: 'Content', 
       type: 'array',
       of: [
         {
@@ -28,7 +31,13 @@ export default {
       ],
     },
     {
+      name: 'excerpt',
+      title: 'Excerpt',
+      type: 'string',
+    },
+    {
       name: 'author',
+      title: 'Author',
       type: 'string'
     }
   ],
