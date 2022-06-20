@@ -27,7 +27,25 @@ export default {
       of: [
         {
           type : 'block'
-        }
+        },
+        {
+          name: 'image',
+          title: 'Image',
+          type: 'image',
+          fields: [
+            {
+              name: 'caption',
+              type: 'string',
+              title: 'Caption',
+            },
+            {
+              name: 'alt',
+              type: 'string',
+              title: 'Alt Text',
+              description: 'Please add alternative text and descriptive text for this image'
+            }
+          ]
+        },
       ],
     },
     {
