@@ -12,6 +12,7 @@
     // "editor.selectionForeground": "#000000"
   },
   "conventionalCommits.scopes": [
-    "global"
+    "global",
+    "Release Version"
   ],
 }

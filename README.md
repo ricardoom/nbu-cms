@@ -1,5 +1,7 @@
 # Native Bound Unbound CMS
 
+Version 0.0.2
+
 - Built with Sanity.io
 
 ## Running this repo
@@ -12,6 +14,10 @@
 ## Change Log
 
 Changes can be tracked here
+
+- v0.0.2
+  - Added Inline Images to the blog.
+  - This allows users to add images in the body of their text
 
 - v0.0.1
   - Getting setup
