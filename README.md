@@ -1,5 +1,7 @@
 # Native Bound Unbound CMS
 
+Version 0.0.2
+
 - Built with Sanity.io
 
 ## Running this repo
